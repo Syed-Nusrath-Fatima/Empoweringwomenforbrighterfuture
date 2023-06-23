@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>
+        Simple web Development Template
+    </title>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">About women empowerment</a></li>
+            <li><a href="#">Women Rights</a></li>
+		    <li><a href="#">Schemes provided by Government to women</a></li>
+
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="Introduction">
+                    Introduction
+                </h1>
+                 
+                <p class="text-small">
+				                  <img src="data:image/png;base64,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"width="400"height="200">
+								  
+
+                 “Women’s empowerment is the process in which women elaborate and recreate what it is that they can be, do, and accomplish in a circumstance that they previously were denied. Empowerment can be defined in many ways, however, when talking about women’s empowerment, empowerment means accepting and allowing people (women) who are on the outside of the decision-making process into it”. 
+				 Women’s empowerment has five components: women’s sense of self-worth; their right to have and to determine choices; their right to have access to opportunities and resources; their right to have power to control their own lives, both within and outside the home; and their ability to influence the direction of social change to create a more just social and economic order, nationally and internationally.
+                 The policy of women's empowerment is incorporated well into the constitution of India which became effective in the year 1950. Article 14 ensures the right to equality for women; Article 15(1) prohibits gender discrimination; Article 15(3) empowers the state to take affirmative steps in favour of women, to name a few.
+                 In recent years, the empowerment of women has been recognized as the central issue in determining the status of women. The National Commission for Women was set up by an Act of Parliament in 1990 to safeguard the rights and legal entitlements of women.
+
+                  
+
+
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <h1 class="text-big" id="About">
+                   About
+                </h1>
+                <p class="text-small">
+      Women's empowerment has become a significant topic of discussion in development and economics. Economic empowerment allows women to control and benefit from resources, assets, and income. It also aids the ability to manage risk and improve women's well-being. It can result in approaches to support trivialized genders in a particular political or social context.While often interchangeably used, the more comprehensive concept of gender empowerment concerns people of any gender, stressing the distinction between biological and gender as a role. Women empowerment helps boost women's status through literacy, education, training and awareness creation.Furthermore, women's empowerment refers to women's ability to make strategic life choices that were previously denied them.
+	  India has also ratified various international conventions and human rights instruments committing to secure equal rights of women. Key among them is the ratification of the Convention on Elimination of All Forms of Discrimination Against Women (CEDAW) in 1993.
+ The Mexico Plan of Action (1975), the Nairobi Forward Looking Strategies (1985), the Beijing Declaration as well as the Platform for Action (1995) and the Outcome Document adopted by the UNGA Session on Gender Equality and Development & Peace for the 21st century, titled "Further actions and initiatives to implement the Beijing Declaration and the Platform for Action" have been unreservedly endorsed by India for appropriate follow up.
+
+ The Policy also takes note of the commitments of the Ninth Five Year Plan and the other Sectoral Policies relating to empowerment of Women.
+
+ The women’s movement and a wide-spread network of non-Government Organisations which have strong grass-roots presence and deep insight into women’s concerns have contributed in inspiring initiatives for the empowerment of women.
+
+ However, there still exists a wide gap between the goals enunciated in the Constitution, legislation, policies, plans, programmes, and related mechanisms on the one hand and the situational reality of the status of women in India, on the other. This has been analyzed extensively in the Report of the Committee on the Status of Women in India, "Towards Equality", 1974 and highlighted in the National Perspective Plan for Women, 1988-2000, the Shramshakti Report, 1988 and the Platform for Action, Five Years After- An assessment"
+
+Gender disparity manifests itself in various forms, the most obvious being the trend of continuously declining female ratio in the population in the last few decades. Social stereotyping and violence at the domestic and societal levels are some of the other manifestations. Discrimination against girl children, adolescent girls and women persists in parts of the country.
+
+ The underlying causes of gender inequality are related to social and economic structure, which is based on informal and formal norms, and practices.
+ Consequently, the access of women particularly those belonging to weaker sections including Scheduled Castes/Scheduled Tribes/ Other backward Classes and minorities, majority of whom are in the rural areas and in the informal, unorganized sector – to education, health and productive resources, among others, is inadequate. Therefore, they remain largely marginalized, poor and socially excluded.
+
+Goal and Objectives
+
+The goal of this Policy is to bring about the advancement, development and empowerment of women. The Policy will be widely disseminated so as to encourage active participation of all stakeholders for achieving its goals. Specifically, the objectives of this Policy include
+
+(i) Creating an environment through positive economic and social policies for full development of women to enable them to realize their full potential
+
+(ii) The de-jure and de-facto enjoyment of all human rights and fundamental freedom by women on equal basis with men in all spheres – political, economic, social, cultural and civil
+
+(iii) Equal access to participation and decision making of women in social, political and economic life of the nation
+
+(iv) Equal access to women to health care, quality education at all levels, career and vocational guidance, employment, equal remuneration, occupational health and safety, social security and public office etc.
+
+(v) Strengthening legal systems aimed at elimination of all forms of discrimination against women
+
+(vi) Changing societal attitudes and community practices by active participation and involvement of both men and women.
+
+(vii) Mainstreaming a gender perspective in the development process.
+
+(viii) Elimination of discrimination and all forms of violence against women and the girl child; and
+
+(ix) Building and strengthening partnerships with civil society, particularly women’s organizations.
+
+
+           
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Women Rights</h1>
+ 
+                        <p class="sectionSubTag text-small">
+						                         <img src="C:\Users\nusra\OneDrive\Desktop\build a website html\empowerment.jpeg"width="400"height="200">
+												 We are all entitled to human rights. These include the right to live free from violence and discrimination; to enjoy the highest attainable standard of physical and mental health; to be educated; to own property; to vote; and to earn an equal wage.
+
+But across the globe many women and girls still face discrimination on the basis of sex and gender. Gender inequality underpins many problems which disproportionately affect women and girls, such as domestic and sexual violence, lower pay, lack of access to education, and inadequate healthcare.
+
+For many years women’s rights movements have fought hard to address this inequality, campaigning to change laws or taking to the streets to demand their rights are respected. And new movements have flourished in the digital age, such as the #MeToo campaign which highlights the prevalence of gender-based violence and sexual harassment.
+
+
+
+						All around the world,women share the same rights.
+						The right to live a life free from violence and slavery
+				        The right to be educated
+						The right to earn a fair and equal wage
+						The right to own property
+						The  right to expression and freedom to vote
+                         
+
+            
+
+            </p>
+ 
+ 
+        </div>
+ 
+        
+    </section>
+    <section class="fourthsection">
+	<div class="box-main">
+	<div class="fourthHalf">
+	<h1 class="text-big" id="schemes">
+	      schemes
+		  </h1>
+		  
+		  <p class="text-small">
+		  There are some schemes in India -- Beti Bachao Beti padhao scheme--Working women hostel scheme--one-stop centre scheme--
+		  women help line scheme--mahila police volunteers scheme--Swadhar greh--Mahila sakti  kendras--
+		  Rajiv gandhi national creche scheme--Ujjwala scheme--these are some important schemes provided by the
+		  government to womens to live independently and safely.
+
+    <footer class="background">
+        <p class="text-footer">
+		         
+
+         		 <img src="C:\Users\nusra\OneDrive\Desktop\build a website html\imagess.jpeg"width="200"height="200">
+				 
+				 <img src="C:\Users\nusra\OneDrive\Desktop\build a website html\imagee.jpeg"width="200"height="200">
+				 
+				 
+				 
+				 				 <img src="C:\Users\nusra\OneDrive\Desktop\build a website html\223-2234081_women-empowerment-in-india-logo.png"width="200"height="200" >
+
+				 
+			
+
+
+   
+        </p>
+ 
+ 
+    </footer>
+</body>
+</html>
